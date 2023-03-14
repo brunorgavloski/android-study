@@ -3,20 +3,28 @@ package com.example.widgets;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-import android.widget.ImageView;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.TextView;
 
 
 public class MainActivity extends AppCompatActivity {
 
-    ImageView image;
+    //declaring views
+
+    TextView textView;
+    Button btn;
+    EditText editText;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        image = findViewById(R.id.ImageView2);
-        image = findViewById(R.id.imageView22);
+        textView = findViewById(R.id.textViwer1);
+        btn = findViewById(R.id.btn1);
+        editText = findViewById(R.id.editText1);
+
 
 
     }
